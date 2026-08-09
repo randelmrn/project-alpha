@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My UBian Journey | Core Values & BEST Attributes</title>
+  <link rel="stylesheet" href="script.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;1,400&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Floating decorative orbs -->
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+  <div class="orb orb-4"></div>
+
+  <!-- Navigation -->
+  <header class="header" id="header">
+    <div class="nav-container">
+      <a href="#home" class="logo">
+        <span class="logo-mark">UB</span>
+        <span class="logo-text">My Journey</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#core-values" class="nav-link">Core Values</a>
+        <a href="#faith" class="nav-link">Faith</a>
+        <a href="#wisdom" class="nav-link">Wisdom</a>
+        <a href="#service" class="nav-link">Service</a>
+        <a href="#best" class="nav-link">BEST</a>
+        <a href="#builder" class="nav-link">Builder</a>
+        <a href="#communicator" class="nav-link">Communicator</a>
+        <a href="#citizen" class="nav-link">Citizen</a>
+        <a href="#learner" class="nav-link">Learner</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow animate-in">University of Batangas</p>
+      <h1 class="hero-title animate-in">
+        Becoming the <span class="highlight">BEST</span><br />
+        Version of Myself
+      </h1>
+      <p class="hero-subtitle animate-in">
+        A living reflection of the UBian Core Values and Attributes — 
+        captured through moments of faith, learning, service, and growth.
+      </p>
+      <div class="hero-cta animate-in">
+        <a href="#core-values" class="btn btn-primary">Explore the Journey</a>
+        <a href="#faith" class="btn btn-ghost">View Moments</a>
+      </div>
+    </div>
+    <div class="scroll-indicator animate-in">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- Core Values Overview -->
+  <section class="section core-values" id="core-values">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Foundation</p>
+        <h2 class="section-title">UB Core Values</h2>
+        <p class="section-desc">
+          Every UBian is expected to possess the UB Core Values.
+        </p>
+      </div>
+      <div class="values-grid">
+        <article class="value-card glass" data-animate>
+          <div class="value-icon spirit">
+            <!-- Cross symbol for Faith in God -->
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+              <path d="M12 3v18M8 8h8"/>
+            </svg>
+          </div>
+          <h3>Faith in God</h3>
+          <p class="value-tag">(Spirit)</p>
+          <p>Rooted in belief, worship, fellowship, and a growing relationship with God that shapes character and purpose.</p>
+        </article>
+        <article class="value-card glass" data-animate>
+          <div class="value-icon intellect">
+            <!-- Open book / knowledge for Love of Wisdom -->
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+              <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+              <path d="M12 6v8"/>
+            </svg>
+          </div>
+          <h3>Love of Wisdom</h3>
+          <p class="value-tag">(Intellect)</p>
+          <p>A hunger for knowledge, critical thinking, leadership, and applying learning in service of others and truth.</p>
+        </article>
+        <article class="value-card glass" data-animate>
+          <div class="value-icon purpose">
+            <!-- Hands / service for Service to Fellowmen -->
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              <path d="M9 12l2 2 4-4"/>
+            </svg>
+          </div>
+          <h3>Service to Fellowmen</h3>
+          <p class="value-tag">(Purpose)</p>
+          <p>Compassion in action — reaching out to communities, sharing knowledge, and uplifting those in need.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FAITH IN GOD ===================== -->
+  <section class="section category-section" id="faith">
+    <div class="container">
+      <div class="category-header">
+        <div class="cat-badge">Core Value · Spirit</div>
+        <h2 class="section-title">Faith in God</h2>
+        <p class="section-desc">Moments of worship, fellowship, and growing closer to God.</p>
+      </div>
+      <div class="carousel-wrapper" data-carousel>
+        <button class="carousel-btn prev" aria-label="Previous">‹</button>
+        <div class="carousel-track">
+          <!-- cards injected or static -->
+          <div class="polaroid-card" data-animate data-fulltitle="Growing in Faith" data-desc="This photo reminds me of my childhood, when I was already surrounded by friends and a community that helped me grow in my faith. Being in church from a young age allowed me to learn about God while creating memories with people who shared the same beliefs. Looking back, I realize that these early experiences became part of the foundation of my relationship with God.">
+            <div class="polaroid-frame">
+              <img src="images/Faith in God - Growing in Faith.jpg" alt="Growing in Faith" loading="lazy" />
+            </div>
+            <h3 class="polaroid-title">Growing in Faith</h3>
+          </div>
+          <div class="polaroid-card" data-animate data-fulltitle="Worship Through Dance" data-desc="This photo captures one of the ways I express my faith—through dance and worship. For me, dancing is not only a performance but a way of praising God, expressing gratitude, and offering my talents to Him. It reminds me that worship can be expressed through the gifts and passions that God has given us.">
+            <div class="polaroid-frame">
+              <img src="images/Faith in God - Worship Through Dance.jpg" alt="Worship Through Dance" loading="lazy" />
+            </div>
+            <h3 class="polaroid-title">Worship Through Dance</h3>
+          </div>
+          <div class="polaroid-card" data-animate data-fulltitle="Celebrating Through Worship" data-desc="Being part of this dance parade allowed me to celebrate my faith together with others through music, movement, and worship. It showed me that praising God can also be joyful, energetic, and shared with a community. Moments like this strengthen my faith and remind me that I am never alone in my journey with God.">
+            <div class="polaroid-frame">
+              <img src="images/Faith in God - Celebrating Through Worship.jpg" alt="Celebrating Through Worship" loading="lazy" />
+            </div>
+            <h3 class="polaroid-title">Celebrating Through Worship</h3>
+          </div>
+          <div class="polaroid-card" data-animate data-fulltitle="Fellowship and Connection" data-desc="This gathering reminds me that faith is not only about personal prayer but also about building meaningful connections with fellow believers. Through conversations, shared experiences, and fellowship, I am able to learn from others and strengthen my relationship with God. It reminds me of the importance of having a community that encourages and supports one another.">
+            <div class="polaroid-frame">
+              <img src="images/Faith in God - Fellowship and Connection.jpg" alt="Fellowship and Connection" loading="lazy" />
+            </div>
+            <h3 class="polaroid-title">Fellowship and Connection</h3>
+          </div>
+          <div class="polaroid-card" data-animate data-fulltitle="Growing Together in Faith" data-desc="This gathering represents a space where we can talk, listen, and learn from one another while keeping God at the center of our conversations. Sharing thoughts and experiences about faith helps me understand that everyone has a different journey, yet we can still grow together. It reminds me that faith becomes stronger when we continue to seek God and encourage one another.">
+            <div class="polaroid-frame">
+              <img src="images/Faith in God - Growing Together in Faith.jpg" alt="Growing Together in Faith" loading="lazy" />
+            </div>
+            <h3 class="polaroid-title">Growing Together in Faith</h3>
+          </div>
+        </div>
+        <button class="carousel-btn next" aria-label="Next">›</button>
+      </div>
+      <div class="carousel-dots"></div>
+    </div>
+  </section>
+
+  <!-- ===================== LOVE OF WISDOM ===================== -->
+  <section class="section category-section alt-bg" id="wisdom">
+    <div class="container">
+      <div class="category-header">
+        <div class="cat-badge">Core Value · Intellect</div>
+        <h2 class="section-title">Love of Wisdom</h2>
+        <p class="section-desc">Academic excellence, leadership, research, and lifelong curiosity.</p>
+      </div>
+      <div class="carousel-wrapper" data-carousel>
+        <button class="carousel-btn prev" aria-label="Previous">‹</button>
+        <div class="carousel-track">
+          <div class="polaroid-card" data-animate data-fulltitle="Academic Achievement" data-desc="This photo was taken this year, May 2026, when I finished my 1st year in college. I was acknowledged for my honorable academic performance in school. It was a fulfilling feeling for me, as a working student at that time; there were days of no sleep at all, going to school straight after my shift ended. My blood, sweat, and tears paid off, literally.">
+            <div class="polaroid-frame">
+              <img src="images/Love of Wisdom - Academic Achievement.jpg" alt="Academic Achievement" loading="lazy" />
+            </div>
+            <h3 class="polaroid-title">Academic Achievement</h3>
+          </div>
+          <div class="polaroid-card" data-animate data-fulltitle="Research Presentation" data-desc="This research proposal reflects our efforts to study the challenges faced by college students during the new normal. Preparing this paper taught me the value of careful planning, teamwork, and critical analysis. It also helped me understand how research can contribute to finding practical solutions to educational problems.">
+            <div class="polaroid-frame">
+              <img src="images/Love of Wisdom - Research Presentation.jpg" alt="Research Presentation" loading="lazy" />
+            </div>
+            <h3 class="polaroid-title">Research Presentation</h3>
+          </div>
+          <div class="polaroid-card" data-animate data-fulltitle="S.M.I.L.E. Partylist President" data-desc="Running under the S.M.I.L.E. partylist and serving as its president taught me that leadership is not simply about holding a position, but about listening, learning, and making responsible decisions for others. This experience helped me develop my confidence and understand how knowledge becomes more meaningful when it is used to serve and empower people.">
+            <div class="polaroid-frame">
+              <img src="images/Love of Wisdom - S.M.I.L.E. Partylist President.jpg" alt="S.M.I.L.E. Partylist President" loading="lazy" />
+            </div>
+            <h3 class="polaroid-title">S.M.I.L.E. Partylist President</h3>
+          </div>
+          <div class="polaroid-card" data-animate data-fulltitle="S.M.I.L.E. Group Meeting" data-desc="Our gatherings and meetings as the S.M.I.L.E. group taught me the value of collaboration, open communication, and learning from different perspectives. Every discussion helped us grow as a team and reminded me that wisdom is not only gained from books or classrooms, but also through shared experiences with others.">
+            <div class="polaroid-frame">
+              <img src="images/Love of Wisdom - S.M.I.L.E. Group Meeting.jpg" alt="S.M.I.L.E. Group Meeting" loading="lazy" />
+            </div>
+            <h3 class="polaroid-title">S.M.I.L.E. Group Meeting</h3>
+          </div>
+          <div class="polaroid-card" data-animate data-fulltitle="Call Center Training" data-desc="Working as a call center agent while pursuing my studies taught me how to adapt, communicate effectively, and remain professional even under pressure. My training was more than learning the job—it was an opportunity to gain real-world knowledge and skills that I could carry with me both inside and outside the classroom.">
+            <div class="polaroid-frame">
+              <img src="images/Love of Wisdom - Call Center Training.jpg" alt="Call Center Training" loading="lazy" />
+            </div>
+            <h3 class="polaroid-title">Call Center Training</h3>
+          </div>
+        </div>
+        <button class="carousel-btn next" aria-label="Next">›</button>
+      </div>
+      <div class="carousel-dots"></div>
+    </div>
+  </section>
+
+  <!-- ===================== SERVICE TO FELLOWMEN ===================== -->
+  <section class="section category-section" id="service">
+    <div class="container">
+      <div class="category-header">
+        <div class="cat-badge">Core Value · Purpose</div>
+        <h2 class="section-title">Service to Fellowmen</h2>
+        <p class="section-desc">Compassion, community, and acts of kindness that make a difference.</p>
+      </div>
+      <div class="carousel-wrapper" data-carousel>
+        <button class="carousel-btn prev" aria-label="Previous">‹</button>
+        <div class="carousel-track">
+          <div class="polaroid-card" data-animate data-fulltitle="Fun Run and Street Clean-Up" data-desc="For me, this activity was more than just joining a fun run because we also helped clean the streets by picking up trash along the way. We’re required to join the fun run as part of our project, and to be able to join we need to pay a significant amount, to be given as donation. I also appreciated that the prizes and proceeds were given as donations, making the activity a way for us to have fun while helping other people and our community.">
+            <div class="polaroid-frame">
+              <img src="images/Service to Fellowmen - Fun Run and Street Clean-Up.jpg" alt="Fun Run and Street Clean-Up" loading="lazy" />
+            </div>
+            <h3 class="polaroid-title">Fun Run and Street Clean-Up</h3>
+          </div>
+          <div class="polaroid-card" data-animate data-fulltitle="Community Immersion and Medicine Distribution" data-desc="During our community immersion, I am tasked to prepare a presentation that tackles herbal medicines. I discuss the use and benefits of each, what it treats, especially elderly individuals and parents who need them. For me, this experience showed how even a simple effort can make a difference in someone’s life when we willingly share our time and resources with others.">
+            <div class="polaroid-frame">
+              <img src="images/Service to Fellowmen - Community Immersion and Medicine Distribution.jpg" alt="Community Immersion and Medicine Distribution" loading="lazy" />
+            </div>
+            <h3 class="polaroid-title">Community Immersion and Medicine Distribution</h3>
+          </div>
+          <div class="polaroid-card" data-animate data-fulltitle="Being a Student Teacher" data-desc="In this activity, I experienced what it was like to become a student teacher and share my knowledge with younger students. For me, teaching was not only about helping them learn but also about being patient, understanding, and encouraging them to do their best.">
+            <div class="polaroid-frame">
+              <img src="images/Service to Fellowmen - Being a Student Teacher.jpg" alt="Being a Student Teacher" loading="lazy" />
+            </div>
+            <h3 class="polaroid-title">Being a Student Teacher</h3>
+          </div>
+          <div class="polaroid-card" data-animate data-fulltitle="Giving Food and Goods to Homeless People" data-desc="As part of our activity in our Religious Education class, we are tasked to interview the people who live in the streets. We gave food and other essential goods to people experiencing homelessness after we conducted the interview. For me, it was a meaningful experience because it reminded me that even simple acts of kindness can bring comfort and hope to people who are in need.">
+            <div class="polaroid-frame">
+              <img src="images/Service to Fellowmen - Giving Food and Goods to Homeless People.jpg" alt="Giving Food and Goods to Homeless People" loading="lazy" />
+            </div>
+            <h3 class="polaroid-title">Giving Food and Goods to Homeless People</h3>
+          </div>
+          <div class="polaroid-card" data-animate data-fulltitle="Kalinga Community Outreach Activity" data-desc="This activity brought us together as students through Kalinga, where we had the opportunity to interact with others and extend our help and kindness. It was a meaningful experience because it taught me the importance of compassion, cooperation, and serving those in need. Through Kalinga, I realized that even simple acts of kindness can make a positive difference in someone’s life. Overall, this experience encouraged me to become more willing to help others and contribute to the community.">
+            <div class="polaroid-frame">
+              <img src="images/Service to Fellowmen - Kalinga Community Outreach Activity.jpg" alt="Kalinga Community Outreach Activity" loading="lazy" />
+            </div>
+            <h3 class="polaroid-title">Kalinga Community Outreach Activity</h3>
+          </div>
+        </div>
+        <button class="carousel-btn next" aria-label="Next">›</button>
+      </div>
+      <div class="carousel-dots"></div>
+    </div>
+  </section>
+
+  <!-- BEST Intro — appears after the three Core Values photo sections -->
+  <section class="section best-intro" id="best">
+    <div class="container">
+      <div class="best-banner glass" data-animate>
+        <h2>UB Attributes — <span class="highlight">BEST</span></h2>
+        <p>The University of Batangas seeks to bring out the BEST version of each student.</p>
+        <div class="best-pills">
+          <span>Builder & Innovator</span>
+          <span>Efficient Professional</span>
+          <span>Social & Global Citizen</span>
+          <span>Transformed Lifelong Learner</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== BUILDER & INNOVATOR ===================== -->
+  <section class="section category-section alt-bg" id="builder">
+    <div class="container">
+      <div class="category-header">
+        <div class="cat-badge">BEST Attribute</div>
+        <h2 class="section-title">Builder and Innovator of Knowledge</h2>
+        <p class="section-desc">Turning ideas into solutions through technology, creativity, and collaboration.</p>
+      </div>
+      <div class="carousel-wrapper" data-carousel>
+        <button class="carousel-btn prev" aria-label="Previous">‹</button>
+        <div class="carousel-track">
+          <div class="polaroid-card" data-animate data-fulltitle="Innovating Through Technology" data-desc="This photo shows our group presenting a proposed project about integrating a PIR sensor into a wall-mounted fan for automatic activation and deactivation. It reflects how we used our knowledge of technology to develop a practical solution to improve convenience and efficiency. Through collaboration, research, and creative thinking, we were able to turn an idea into a possible innovation.">
+            <div class="polaroid-frame">
+              <img src="images/Builder and Innovator of Knowledge (1).jpg" alt="Innovating Through Technology" loading="lazy" />
+            </div>
+            <h3 class="polaroid-title">Innovating Through Technology</h3>
+          </div>
+          <div class="polaroid-card" data-animate data-fulltitle="Creating Solutions for Disaster Preparedness" data-desc="This project proposal focuses on mitigating the hazards of lahar and finding ways to address its possible effects on communities. It shows how we applied our knowledge to understand a real-world problem and develop a meaningful solution. This experience taught me that innovation is not only about creating new things, but also about using knowledge to respond to challenges.">
+            <div class="polaroid-frame">
+              <img src="images/Builder and Innovator of Knowledge (2).jpg" alt="Creating Solutions for Disaster Preparedness" loading="lazy" />
+            </div>
+            <h3 class="polaroid-title">Creating Solutions for Disaster Preparedness</h3>
+          </div>
+          <div class="polaroid-card" data-animate data-fulltitle="Turning Ideas into Opportunities" data-desc="This photo showcases our creative business concept, Browniebisc, which combines creativity and entrepreneurship into a unique product idea. Developing the brand allowed us to apply what we learned about planning, marketing, and presenting an idea professionally. It showed me how knowledge can be transformed into an innovative product that can potentially become an opportunity.">
+            <div class="polaroid-frame">
+              <img src="images/Builder and Innovator of Knowledge (3).jpg" alt="Turning Ideas into Opportunities" loading="lazy" />
+            </div>
+            <h3 class="polaroid-title">Turning Ideas into Opportunities</h3>
+          </div>
+          <div class="polaroid-card" data-animate data-fulltitle="Building an Interactive Learning Platform" data-desc="This photo presents BioQuest, a website we developed to make Biology learning more engaging and interactive. We used technology and creativity to organize lessons, information, quizzes, and activities into one accessible platform. This experience helped me understand how digital tools can be used to create innovative ways of learning and sharing knowledge.">
+            <div class="polaroid-frame">
+              <img src="images/Builder and Innovator of Knowledge (4).jpg" alt="Building an Interactive Learning Platform" loading="lazy" />
+            </div>
+            <h3 class="polaroid-title">Building an Interactive Learning Platform</h3>
+          </div>
+          <div class="polaroid-card" data-animate data-fulltitle="Expressing Knowledge Through Creativity" data-desc="This photo showcases our creative presentation of Malinche, where we combined visual design, storytelling, and performance to present our work. Creating this project allowed us to explore different ways of communicating ideas beyond traditional written work. It taught me that innovation can also be expressed through creativity, collaboration, and the ability to present knowledge in an engaging way.">
+            <div class="polaroid-frame">
+              <img src="images/Builder and Innovator of Knowledge (5).jpg" alt="Expressing Knowledge Through Creativity" loading="lazy" />
+            </div>
+            <h3 class="polaroid-title">Expressing Knowledge Through Creativity</h3>
+          </div>
+        </div>
+        <button class="carousel-btn next" aria-label="Next">›</button>
+      </div>
+      <div class="carousel-dots"></div>
+    </div>
+  </section>
+
+  <!-- ===================== EFFICIENT PROFESSIONAL ===================== -->
+  <section class="section category-section" id="communicator">
+    <div class="container">
+      <div class="category-header">
+        <div class="cat-badge">BEST Attribute</div>
+        <h2 class="section-title">Efficient Professional & Effective Communicator</h2>
+        <p class="section-desc">Confidence, clarity, and collaboration in every presentation and team effort.</p>
+      </div>
+      <div class="carousel-wrapper" data-carousel>
+        <button class="carousel-btn prev" aria-label="Previous">‹</button>
+        <div class="carousel-track">
+          <div class="polaroid-card" data-animate data-fulltitle="Teamwork and Effective Communication" data-desc="This is our meeting in one of our subjects in SHS. We are discussing our parts, how to do them, and our plans on how to work together as a team. Each of us has our own parts to fulfill and agendas to contribute as part of our project. Effective communication is crucial to teamwork so that all of us know how to deliver our message meaningfully to our target audience.">
+            <div class="polaroid-frame">
+              <img src="images/Efficient Professional and Effective Communicator (1).jpg" alt="Teamwork and Effective Communication" loading="lazy" />
+            </div>
+            <h3 class="polaroid-title">Teamwork and Effective Communication</h3>
+          </div>
+          <div class="polaroid-card" data-animate data-fulltitle="Building Confidence Through Communication" data-desc="This photo shows me participating in a classroom activity where I had the opportunity to speak in front of my classmates. It helped me practice expressing my thoughts clearly and confidently while also responding to the ideas of others. I learned that being an effective communicator requires confidence, preparation, and active listening. This experience helped me become more comfortable when sharing my ideas with others.">
+            <div class="polaroid-frame">
+              <img src="images/Efficient Professional and Effective Communicator (2).jpg" alt="Building Confidence Through Communication" loading="lazy" />
+            </div>
+            <h3 class="polaroid-title">Building Confidence Through Communication</h3>
+          </div>
+          <div class="polaroid-card" data-animate data-fulltitle="Presenting the Biography of Amy Tan" data-desc="This photo documents each group during their group report. I was reporting at that time when they coincidentally took a picture. It tackles the biography of Amy Tan, as part of the names in one of our subjects that we need to keep in mind. Presenting in front of my classmates helped me improve my confidence and taught me how to explain information in a clear and understandable way.">
+            <div class="polaroid-frame">
+              <img src="images/Efficient Professional and Effective Communicator (3).jpg" alt="Presenting the Biography of Amy Tan" loading="lazy" />
+            </div>
+            <h3 class="polaroid-title">Presenting the Biography of Amy Tan</h3>
+          </div>
+          <div class="polaroid-card" data-animate data-fulltitle="Promoting Proper Garbage Segregation" data-desc="This photo shows me presenting our group's research about the effectiveness of garbage segregation. I had to explain our topic clearly so that my classmates could understand the importance of proper waste management. Through this experience, I learned how preparation and confidence can help me communicate information effectively. It also taught me that good communication can help encourage others to become more responsible in their community.">
+            <div class="polaroid-frame">
+              <img src="images/Efficient Professional and Effective Communicator (4).jpg" alt="Promoting Proper Garbage Segregation" loading="lazy" />
+            </div>
+            <h3 class="polaroid-title">Promoting Proper Garbage Segregation</h3>
+          </div>
+          <div class="polaroid-card" data-animate data-fulltitle="Sharing Knowledge About Reproductive Health" data-desc="This photo shows me presenting information about the menstrual cycle and its importance to women's reproductive health. I needed to communicate the topic clearly and confidently while making sure that the information was understandable to my audience. This experience helped me become more comfortable discussing important topics in front of others. It also taught me that an effective communicator should be knowledgeable, respectful, and responsible with the information they share.">
+            <div class="polaroid-frame">
+              <img src="images/Efficient Professional and Effective Communicator (5).jpg" alt="Sharing Knowledge About Reproductive Health" loading="lazy" />
+            </div>
+            <h3 class="polaroid-title">Sharing Knowledge About Reproductive Health</h3>
+          </div>
+        </div>
+        <button class="carousel-btn next" aria-label="Next">›</button>
+      </div>
+      <div class="carousel-dots"></div>
+    </div>
+  </section>
+
+  <!-- ===================== SOCIAL, MORAL & GLOBAL ===================== -->
+  <section class="section category-section alt-bg" id="citizen">
+    <div class="container">
+      <div class="category-header">
+        <div class="cat-badge">BEST Attribute</div>
+        <h2 class="section-title">Social, Moral and Global-Minded Citizen</h2>
+        <p class="section-desc">Care for the environment, community, and all living beings.</p>
+      </div>
+      <div class="carousel-wrapper" data-carousel>
+        <button class="carousel-btn prev" aria-label="Previous">‹</button>
+        <div class="carousel-track">
+          <div class="polaroid-card" data-animate data-fulltitle="Caring for Our Environment" data-desc="This photo was taken during our DRRR activity, we are tasked to clean every week, in our respective groups. Some has to pick up trashes and dried leaves, some will use the broom and dust pan. It was a good experience for me, because it teaches us how to engage environmentally, not just to participate, but to also love and take care of our environment.">
+            <div class="polaroid-frame">
+              <img src="images/Social, Moral and Global-Minded Citizen (1).jpg" alt="Caring for Our Environment" loading="lazy" />
+            </div>
+            <h3 class="polaroid-title">Caring for Our Environment</h3>
+          </div>
+          <div class="polaroid-card" data-animate data-fulltitle="Serving Through Cleanliness" data-desc="This photo was taken during our cleanup drive, it is voluntarily, but also part of our activity on DRRR subject in SHS. This is one of my cherished moments, because we were able to clean the whole school together, with my peers and friends. We are grouped and each group has a place on where they were going to clean. We enjoyed the hardship together, for the cleanliness of our school, since we are also the one who will benefit.">
+            <div class="polaroid-frame">
+              <img src="images/Social, Moral and Global-Minded Citizen (2).jpg" alt="Serving Through Cleanliness" loading="lazy" />
+            </div>
+            <h3 class="polaroid-title">Serving Through Cleanliness</h3>
+          </div>
+          <div class="polaroid-card" data-animate data-fulltitle="Sharing Knowledge Across Communities" data-desc="This photo reminds me of the importance of helping people who may need support. Seeing others come together to teach and share their knowledge inspires me to use what I know to help others. It also teaches me to appreciate different cultures, experiences, and ways of life. Being a global-minded citizen means showing kindness and understanding toward people regardless of their background.">
+            <div class="polaroid-frame">
+              <img src="images/Social, Moral and Global-Minded Citizen (3).jpg" alt="Sharing Knowledge Across Communities" loading="lazy" />
+            </div>
+            <h3 class="polaroid-title">Sharing Knowledge Across Communities</h3>
+          </div>
+          <div class="polaroid-card" data-animate data-fulltitle="Spreading Joy Through Service" data-desc="This photo represents the joy and importance of sharing with others, especially with children in the community. Seeing their happiness reminds me that simple acts of kindness can have a meaningful impact on someone's life. It encourages me to become more generous and considerate of the needs of others. I believe that building a caring community starts with compassion and willingness to help.">
+            <div class="polaroid-frame">
+              <img src="images/Social, Moral and Global-Minded Citizen (4).jpg" alt="Spreading Joy Through Service" loading="lazy" />
+            </div>
+            <h3 class="polaroid-title">Spreading Joy Through Service</h3>
+          </div>
+          <div class="polaroid-card" data-animate data-fulltitle="Compassion for Animals" data-desc="This photo reminds me that compassion should extend to animals as well as people. Volunteering and caring for animals teaches me responsibility, patience, and kindness toward living beings that depend on our care. It shows me that being a responsible citizen also means protecting and respecting other forms of life. Through these actions, I can contribute to creating a more caring and compassionate community.">
+            <div class="polaroid-frame">
+              <img src="images/Social, Moral and Global-Minded Citizen (5).jpg" alt="Compassion for Animals" loading="lazy" />
+            </div>
+            <h3 class="polaroid-title">Compassion for Animals</h3>
+          </div>
+        </div>
+        <button class="carousel-btn next" aria-label="Next">›</button>
+      </div>
+      <div class="carousel-dots"></div>
+    </div>
+  </section>
+
+  <!-- ===================== TRANSFORMED LIFELONG LEARNER ===================== -->
+  <section class="section category-section" id="learner">
+    <div class="container">
+      <div class="category-header">
+        <div class="cat-badge">BEST Attribute</div>
+        <h2 class="section-title">Transformed Lifelong Learner</h2>
+        <p class="section-desc">Curiosity, creativity, and the continuous pursuit of growth.</p>
+      </div>
+      <div class="carousel-wrapper" data-carousel>
+        <button class="carousel-btn prev" aria-label="Previous">‹</button>
+        <div class="carousel-track">
+          <div class="polaroid-card" data-animate data-fulltitle="Technology and Creativity" data-desc="This photo reminds me that learning can also happen through technology and creativity. I am continuously discovering new tools and skills that help me improve my work and express my ideas. Editing and creating digital content has taught me to be patient and willing to learn from my mistakes. It shows how I continue to grow by adapting to new ways of learning.">
+            <div class="polaroid-frame">
+              <img src="images/Transformed Lifelong Learner (1).jpg" alt="Technology and Creativity" loading="lazy" />
+            </div>
+            <h3 class="polaroid-title">Technology and Creativity</h3>
+          </div>
+          <div class="polaroid-card" data-animate data-fulltitle="Exploring Knowledge Through Reading" data-desc="This photo represents my willingness to learn by exploring books and different sources of knowledge. I believe that learning does not only happen inside the classroom because I can gain valuable information through reading and personal exploration. Whenever I discover something new, it gives me a better understanding of the world around me. This reminds me to remain curious and open to learning throughout my life.">
+            <div class="polaroid-frame">
+              <img src="images/Transformed Lifelong Learner (2).jpg" alt="Exploring Knowledge Through Reading" loading="lazy" />
+            </div>
+            <h3 class="polaroid-title">Exploring Knowledge Through Reading</h3>
+          </div>
+          <div class="polaroid-card" data-animate data-fulltitle="Developing Artistic Skills" data-desc="This photo shows my dedication to developing my creativity and artistic skills. Drawing requires patience, practice, and a willingness to improve even when the result is not perfect. Through practicing, I learn from my mistakes and discover better ways to express myself. It reminds me that every skill can grow when I continue learning and putting in effort.">
+            <div class="polaroid-frame">
+              <img src="images/Transformed Lifelong Learner (3).jpg" alt="Developing Artistic Skills" loading="lazy" />
+            </div>
+            <h3 class="polaroid-title">Developing Artistic Skills</h3>
+          </div>
+          <div class="polaroid-card" data-animate data-fulltitle="Studying and Building Knowledge" data-desc="This photo represents my commitment to studying and improving my knowledge. I spend time organizing my notes, researching information, and using technology to support my learning. Although studying can sometimes be tiring, I know that every effort helps me become more knowledgeable and prepared. It reminds me that learning is a continuous process that requires discipline and perseverance.">
+            <div class="polaroid-frame">
+              <img src="images/Transformed Lifelong Learner (4).jpg" alt="Studying and Building Knowledge" loading="lazy" />
+            </div>
+            <h3 class="polaroid-title">Studying and Building Knowledge</h3>
+          </div>
+          <div class="polaroid-card" data-animate data-fulltitle="Creativity Through Exploration" data-desc="This photo shows how I learn through creativity, experimentation, and hands-on activities. Exploring different art materials allows me to try new techniques and discover what works best for me. I have learned that making mistakes is part of the learning process because they help me improve and become more confident. As a lifelong learner, I want to keep exploring new interests and developing new skills.">
+            <div class="polaroid-frame">
+              <img src="images/Transformed Lifelong Learner (5).jpg" alt="Creativity Through Exploration" loading="lazy" />
+            </div>
+            <h3 class="polaroid-title">Creativity Through Exploration</h3>
+          </div>
+        </div>
+        <button class="carousel-btn next" aria-label="Next">›</button>
+      </div>
+      <div class="carousel-dots"></div>
+    </div>
+  </section>
+
+  <!-- Closing -->
+  <section class="section closing">
+    <div class="container">
+      <div class="closing-content glass" data-animate>
+        <h2>Continuing the Journey</h2>
+        <p>
+          These moments are more than memories — they are living proof of the UBian spirit. 
+          With faith as the foundation, wisdom as the guide, and service as the purpose, 
+          I keep striving to become the BEST version of myself every day.
+        </p>
+        <a href="#home" class="btn btn-primary">Back to Top</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>University of Batangas · Core Values & BEST Attributes</p>
+      <p class="footer-note">A personal reflection journey · Light blue, lively & interactive</p>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close">×</button>
+    <div class="lightbox-content">
+      <img id="lightboxImg" src="" alt="" />
+      <div class="lightbox-info">
+        <h3 id="lightboxTitle"></h3>
+        <p id="lightboxDesc"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
